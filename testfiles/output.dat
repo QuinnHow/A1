@@ -1,0 +1,108 @@
+Welcome to Car Board 
+-------------------- 
+1. Play Game 
+2. Show student information 
+3. Quit 
+
+Please enter your choice: 
+You can use the following commands to play the game: 
+
+load <g> 
+   g: the id of the game board to load 
+init <x>,<y>,<direction> 
+   x: horizontal position of the car on the board (between 0 & 9) 
+   y: vertical position of the car on the board (between 0 & 9) 
+   direction: direction of the car's movement (north, east, south, west) 
+forward (or f) 
+turn_left (or l) 
+turn_right (or r) 
+quit 
+
+Press enter to continue... 
+
+| |0|1|2|3|4|5|6|7|8|9|
+|0| | | | | | | | | | |
+|1| | | | | | | | | | |
+|2| | | | | | | | | | |
+|3| | | | | | | | | | |
+|4| | | | | | | | | | |
+|5| | | | | | | | | | |
+|6| | | | | | | | | | |
+|7| | | | | | | | | | |
+|8| | | | | | | | | | |
+|9| | | | | | | | | | |
+
+At this stage of the program, only two commands are acceptable: 
+load <g> 
+quit 
+
+
+| |0|1|2|3|4|5|6|7|8|9|
+|0|*| | | | | | | | | |
+|1| |*| | | | | |*| | |
+|2| | |*| | | | | | | |
+|3| | | | | | | |*| | |
+|4| | | | |*| | | | | |
+|5| | |*| | |*| |*| | |
+|6| | | | | | |*| | | |
+|7| | |*| | | | | | | |
+|8| | | | | | | | | | |
+|9| | |*| | | | | | |*|
+
+At this stage of the program, only three commands are acceptable: 
+load <g> 
+init <x>,<y>,<direction> 
+quit 
+
+
+| |0|1|2|3|4|5|6|7|8|9|
+|0|*| | | | | | | | | |
+|1| |*| | | | | |*| | |
+|2| | |*| | | | | | | |
+|3| | | | | | | |*| | |
+|4| | |→| |*| | | | | |
+|5| | |*| | |*| |*| | |
+|6| | | | | | |*| | | |
+|7| | |*| | | | | | | |
+|8| | | | | | | | | | |
+|9| | |*| | | | | | |*|
+
+At this stage of the program, only four commands are acceptable: 
+forward (or f) 
+turn_left (or l) 
+turn_right (or r) 
+quit 
+
+
+Player moved.
+
+| |0|1|2|3|4|5|6|7|8|9|
+|0|*| | | | | | | | | |
+|1| |*| | | | | |*| | |
+|2| | |*| | | | | | | |
+|3| | | | | | | |*| | |
+|4| | | |→|*| | | | | |
+|5| | |*| | |*| |*| | |
+|6| | | | | | |*| | | |
+|7| | |*| | | | | | | |
+|8| | | | | | | | | | |
+|9| | |*| | | | | | |*|
+
+At this stage of the program, only four commands are acceptable: 
+forward (or f) 
+turn_left (or l) 
+turn_right (or r) 
+quit 
+
+
+Total player moves: 1
+
+Welcome to Car Board 
+-------------------- 
+1. Play Game 
+2. Show student information 
+3. Quit 
+
+Please enter your choice: 
+Good bye!
+
